@@ -10,8 +10,7 @@ services:
       # The connection string is an SQLAlchemy connection string, does not need a password since it uses sockets
       INHOUSE_BOT_CONNECTION_STRING: postgresql+psycopg2://postgres:@/inhouse_bot
 
-      # You need to put your Discord Bot token here
-      INHOUSE_BOT_TOKEN: MTQyODUwNzQwNjM3OTI1Mzg2MQ.G8xiTF.TddD_jo3F5KpesqpNJWBGFEMBr_viGN7ZtcLQc
+      INHOUSE_BOT_TOKEN: MTQyODUwNzQwNjM3OTI1Mzg2MQ.GMafL-.cxo1CsEG6Erp_PMWOR_oSUWZAeADdk_a6FQ-bo
 
       # Those emoji help the bot look good and are defined with discord.py emoji syntax
       INHOUSE_BOT_TOP_EMOJI: '<:TOP:770815146452451359>'
@@ -58,3 +57,4 @@ services:
 volumes:
   pgdata:     # Persistent data volume for the database
   dbsocket:   # Socket mounting volume
+
